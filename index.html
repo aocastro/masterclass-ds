@@ -5,12 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha primeira página com GIT</title>
+    <title>Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
-    <h1>Oi estou no GIT</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <a class="navbar-brand">Brand</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-primary mt-5">
+        <h1 class="display-4 text-center text-white">Site exemplo</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-primary">
+                    Notícias
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6">
+                <img class="img-fluid" src="img/what-is-a-web-developer.jpg" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+                <h4 class="text-danger">Título</h4>
+                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magni facere adipisci, quisquam magnam delectus rerum ea in aperiam est voluptatum neque expedita. Natus ullam optio ea, aspernatur ratione vero!</span><span>Rem laborum repellendus officia ab illo eius ad fugiat voluptates doloremque consequuntur? Laboriosam praesentium alias odio sint earum aspernatur quidem! Nobis enim reprehenderit commodi asperiores amet repudiandae adipisci nam a!</span></p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="co-12">
+                <h4 class="text-danger">
+                    Patrocinadores
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-3 col-md-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint, nam consequuntur officiis illum eos fugiat voluptas error debitis numquam laborum vero eveniet ducimus sed quaerat placeat saepe nesciunt aspernatur.</div>
+            <div class="col-12 col-sm-3 col-md-2">Assumenda aut, voluptatem quas sequi vel laudantium quam, reiciendis quos repellendus voluptatum eum fugiat, magnam quasi? Eveniet iure soluta ex quibusdam tempora necessitatibus quaerat dignissimos! Ad est quibusdam aspernatur magni!</div>
+            <div class="col-12 col-sm-3 col-md-2">Beatae iste aliquid facilis, assumenda laborum nulla saepe commodi fuga harum pariatur odio sapiente et at dolor expedita ducimus ea vel aspernatur hic soluta quas sunt perspiciatis animi esse. Vero.</div>
+            <div class="col-12 col-sm-3 col-md-2">Recusandae in odio incidunt amet asperiores nostrum veniam quod beatae minima temporibus quasi assumenda id eos harum inventore, quisquam dolorem perspiciatis neque. Unde incidunt voluptas, vitae praesentium delectus aliquam provident.</div>
+            <div class="col-12 col-sm-3 col-md-2">Ea asperiores voluptas, at ab, voluptatibus eum distinctio eos ipsum similique eveniet doloremque reiciendis dolor exercitationem saepe aspernatur fugit incidunt esse quasi maiores iure porro inventore suscipit, laudantium neque? Nemo.</div>
+            <div class="col-12 col-sm-3 col-md-2">Officia dolorem quod deserunt similique quo qui odio facere aut enim doloremque reprehenderit itaque praesentium saepe perspiciatis vitae cumque sint maxime tempore, illum inventore nobis eum repellat facilis. Aliquam, at!</div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-info mt-3">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center text-white">
+                    Todos os direitos reservados
+                </p>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.js"></script>
